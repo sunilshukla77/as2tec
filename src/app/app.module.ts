@@ -5,24 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home.component';
 import { TrainingComponent } from './training/training.component';
 import { CourseComponent } from './training/course/course.component';
+import { LoginComponent } from './home/login/login.component';
+import { As2tecComponent } from './as2tec.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent,
     TrainingComponent,
-    CourseComponent
+    CourseComponent,
+    LoginComponent,
+    As2tecComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [As2tecComponent]
 })
 export class AppModule { }
