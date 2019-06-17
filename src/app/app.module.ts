@@ -10,6 +10,7 @@ import { CourseComponent } from './training/course/course.component';
 import { LoginComponent } from './home/login/login.component';
 import { As2tecComponent } from './as2tec.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [FormsModule],
   bootstrap: [As2tecComponent]
 })
 export class AppModule { }
