@@ -11,6 +11,12 @@ import { LoginComponent } from './home/login/login.component';
 import { As2tecComponent } from './as2tec.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule} from '@angular/forms';
+import { RouterModule} from '@angular/router';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { RegisterComponent } from './home/register/register.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+
 
 @NgModule({
   declarations: [
@@ -21,11 +27,16 @@ import { FormsModule} from '@angular/forms';
     CourseComponent,
     LoginComponent,
     As2tecComponent,
-    HomeComponent
+    HomeComponent,
+    ContactusComponent,
+    LoginComponent,
+    NotfoundComponent,
+    RegisterComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, RouterModule
   ],
   providers: [FormsModule],
   bootstrap: [As2tecComponent]
