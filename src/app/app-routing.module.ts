@@ -13,6 +13,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 
 
 const routes: Routes = [
+  {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'training', component: TrainingComponent},
   {path: 'contactus', component: ContactusComponent},
