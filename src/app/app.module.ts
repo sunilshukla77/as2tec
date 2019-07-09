@@ -16,6 +16,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { RegisterComponent } from './home/register/register.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { SEOService } from './seo.service';
 
 
 @NgModule({
@@ -38,7 +39,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     BrowserModule,
     AppRoutingModule, RouterModule
   ],
-  providers: [FormsModule],
+  providers: [FormsModule, SEOService],
   bootstrap: [As2tecComponent]
 })
 export class AppModule { }
