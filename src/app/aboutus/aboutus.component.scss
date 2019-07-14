@@ -1,3 +1,11 @@
-#aboutUsArticle{
-    background: url('/assets/images/UAE1.jpeg') no-repeat;
+#aboutUsArticle {
+
+  // background: url('/assets/images/UAE1.jpeg') no-repeat;
+  //background: linear-gradient(rgb(77, 77, 199) 100%);
+  background: repeating-linear-gradient(45deg,
+      #606dbc,
+      #acb5f0 10px,
+      #618ccc 10px,
+      #465298 20px);
+
 }
