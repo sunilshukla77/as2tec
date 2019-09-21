@@ -5,8 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
+    "deploy": "aws s3 sync dist/as2tec/ s3://www.as2tec.com",
     "e2e": "ng e2e"
   },
   "private": true,
