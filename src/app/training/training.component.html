@@ -1,3 +1,30 @@
 <p>
-  training works!
+  <router-outlet></router-outlet>
 </p>
+
+<a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Training
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  <a class="dropdown-item" href="#">Basic UI Web Design</a>  
+  <a class="dropdown-item" href="#">Angular</a>
+  <a class="dropdown-item" href="#">HTML, CSS</a>
+  <a class="dropdown-item" href="#">JavaScript or TypeScript</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Java</a>
+  <a class="dropdown-item" href="#">Spring</a>
+  <a class="dropdown-item" href="#">Web Services</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">AWS</a>
+  <a class="dropdown-item" href="#">Hadoop</a>
+</div>
+
+<div class="container">
+    <router-outlet></router-outlet>
+    <div class="card bg-light">
+      <article class="card-body mx-auto" style="align-self: auto;;">
+          <app-course></app-course>
+      </article>
+    </div>
+  </div>
+
